@@ -3,8 +3,12 @@
 void game_of_life(struct Options *opt, int *current_grid, int *next_grid, int n, int m){
     int neighbours;
     int n_i[8], n_j[8];
-    for(int j = 0; j < m; j++){
-        for(int i = 0; i < n; i++){
+
+    /* Original for loop structure (i inside of j) is not optimal as it causes
+    cache misses due to the element of next_grid[] being access was increasing
+    by 1000 each time - changed nested loop structure to j within i instead */
+    for(int i = 0; i < n; i++){
+        for(int j = 0; j < m; j++){
             // count the number of neighbours, clockwise around the current cell.
             neighbours = 0;
             n_i[0] = i - 1; n_j[0] = j - 1;
@@ -40,8 +44,13 @@ void game_of_life_stats(struct Options *opt, int step, int *current_grid){
     unsigned long long num_in_state[NUMSTATES];
     int m = opt->m, n = opt->n;
     for(int i = 0; i < NUMSTATES; i++) num_in_state[i] = 0;
-    for(int j = 0; j < m; j++){
-        for(int i = 0; i < n; i++){
+    
+    /* Similar to the loops in game_of_life(), original for loop structure (i
+    inside of j) is not optimal as it causes cache misses due to the element 
+    of next_grid[] being access was increasing by 1000 each time - changed
+    nested loop structure to j within i instead */
+    for(int i = 0; i < n; i++){
+        for(int j = 0; j < m; j++){
             num_in_state[current_grid[i*m + j]]++;
         }
     }
