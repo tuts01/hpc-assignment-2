@@ -1,0 +1,68 @@
+========================================================= 
+GOL Running with following 
+========================================================= 
+Requesting grid size of (100,100), which requires 0.000037 GB 
+Number of steps 20 
+IC type 0 
+Visualization type -1 
+Neighbour rule type 0 
+Boundary rule type 0 
+========================================================= 
+ 
+========================================================= 
+Core binding report:
+ On node nid001633 : MPI Rank 0 :  Thread 0 :  Core affinity = 0 128 
+========================================================= 
+ 
+========================================================= 
+Memory Usage @ Function report_runtime_state @ 354 
+ (VM, Peak VM, RSS, Peak RSS) = (8852, 8852, 816, 816) kilobytes 
+========================================================= 
+ 
+========================================================= 
+Memory Usage @ Function generate_IC @ 301 
+ (VM, Peak VM, RSS, Peak RSS) = (8852, 8852, 816, 816) kilobytes 
+========================================================= 
+ 
+Game of Life, Step 0:
+Elapsed time 0.432496 s
+Game of Life, Step 1:
+Elapsed time 0.001827 s
+Game of Life, Step 2:
+Elapsed time 0.001374 s
+Game of Life, Step 3:
+Elapsed time 0.001274 s
+Game of Life, Step 4:
+Elapsed time 0.001120 s
+Game of Life, Step 5:
+Elapsed time 0.001275 s
+Game of Life, Step 6:
+Elapsed time 0.001159 s
+Game of Life, Step 7:
+Elapsed time 0.001091 s
+Game of Life, Step 8:
+Elapsed time 0.001034 s
+Game of Life, Step 9:
+Elapsed time 0.001044 s
+Game of Life, Step 10:
+Elapsed time 0.001207 s
+Game of Life, Step 11:
+Elapsed time 0.001111 s
+Game of Life, Step 12:
+Elapsed time 0.001125 s
+Game of Life, Step 13:
+Elapsed time 0.001036 s
+Game of Life, Step 14:
+Elapsed time 0.001042 s
+Game of Life, Step 15:
+Elapsed time 0.001019 s
+Game of Life, Step 16:
+Elapsed time 0.001196 s
+Game of Life, Step 17:
+Elapsed time 0.001009 s
+Game of Life, Step 18:
+Elapsed time 0.001082 s
+Game of Life, Step 19:
+Elapsed time 0.000888 s
+Finnished GOL
+Elapsed time 0.454434 s
