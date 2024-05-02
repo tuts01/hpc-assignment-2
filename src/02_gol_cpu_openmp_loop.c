@@ -13,7 +13,7 @@ void game_of_life(struct Options *opt, int *current_grid, int *next_grid, int n,
         /* Execute the inner for loop in parallel - arrays can be safely shared
         between threads as they will modify different elements of the next_grid
         array, and the current_grid does not get modified */
-        #pragma omp parallel default(none) shared(current_grid, next_grid, m) private(neighbours, n_i, n_j, i, j)
+        #pragma omp parallel default(none) shared(current_grid, next_grid, m, n) private(neighbours, n_i, n_j, i)
         {
             /* Schedule the threads statically, since the amount of work does
             not vary between iterations */
