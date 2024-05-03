@@ -1,0 +1,27 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 19.83      0.75     0.75                             game_of_life._omp_fn.0 (02_gol_cpu_openmp_loop.c:45 @ 401290)
+ 14.51      1.29     0.55                             game_of_life._omp_fn.0 (02_gol_cpu_openmp_loop.c:40 @ 401354)
+  9.05      1.63     0.34                             game_of_life._omp_fn.0 (02_gol_cpu_openmp_loop.c:38 @ 401323)
+  8.39      1.95     0.32                             game_of_life._omp_fn.0 (02_gol_cpu_openmp_loop.c:43 @ 401380)
+  7.72      2.24     0.29                             game_of_life._omp_fn.0 (02_gol_cpu_openmp_loop.c:35 @ 4012e5)
+  7.19      2.51     0.27                             game_of_life_stats (02_gol_cpu_openmp_loop.c:66 @ 4014b7)
+  7.19      2.78     0.27                             game_of_life_stats (02_gol_cpu_openmp_loop.c:65 @ 4014bc)
+  6.39      3.02     0.24                             game_of_life._omp_fn.0 (02_gol_cpu_openmp_loop.c:34 @ 4012c2)
+  5.59      3.23     0.21                             game_of_life._omp_fn.0 (02_gol_cpu_openmp_loop.c:39 @ 40133e)
+  4.79      3.41     0.18                             game_of_life._omp_fn.0 (02_gol_cpu_openmp_loop.c:41 @ 401371)
+  3.33      3.53     0.13                             game_of_life._omp_fn.0 (02_gol_cpu_openmp_loop.c:36 @ 4012fa)
+  2.26      3.62     0.09                             game_of_life._omp_fn.0 (02_gol_cpu_openmp_loop.c:43 @ 40127e)
+  1.73      3.68     0.07                             game_of_life._omp_fn.0 (02_gol_cpu_openmp_loop.c:37 @ 401311)
+  1.33      3.73     0.05                             game_of_life._omp_fn.0 (02_gol_cpu_openmp_loop.c:22 @ 4012a7)
+  0.27      3.74     0.01                             generate_rand_IC (common.c:293 @ 401dd0)
+  0.13      3.75     0.01                             game_of_life._omp_fn.0 (02_gol_cpu_openmp_loop.c:44 @ 4012ab)
+  0.13      3.75     0.01                             game_of_life._omp_fn.0 (02_gol_cpu_openmp_loop.c:22 @ 4012b0)
+  0.13      3.76     0.01                             game_of_life_stats (02_gol_cpu_openmp_loop.c:65 @ 401490)
+  0.13      3.76     0.01                             game_of_life_stats (02_gol_cpu_openmp_loop.c:66 @ 4014b0)
+  0.00      3.76     0.00        2     0.00     0.00  report_memory_usage (common.c:24 @ 401660)
+  0.00      3.76     0.00        1     0.00     0.00  cpuset_to_cstr (common.c:124 @ 4017d0)
+  0.00      3.76     0.00        1     0.00     0.00  report_core_binding (common.c:159 @ 401950)

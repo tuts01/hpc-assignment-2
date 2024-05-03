@@ -1,0 +1,228 @@
+========================================================= 
+GOL Running with following 
+========================================================= 
+Requesting grid size of (7500,7500), which requires 0.209548 GB 
+Number of steps 100 
+IC type 0 
+Visualization type -1 
+Neighbour rule type 9 
+Boundary rule type 0 
+========================================================= 
+ 
+========================================================= 
+Core binding report:
+ On node nid001633 : MPI Rank 0 :  Thread 0 :  Core affinity = 0-7 64-71 128-135 192-199 
+========================================================= 
+ 
+========================================================= 
+Memory Usage @ Function report_runtime_state @ 354 
+ (VM, Peak VM, RSS, Peak RSS) = (11196, 11196, 900, 900) kilobytes 
+========================================================= 
+ 
+========================================================= 
+Memory Usage @ Function generate_IC @ 301 
+ (VM, Peak VM, RSS, Peak RSS) = (450652, 450652, 221900, 221900) kilobytes 
+========================================================= 
+ 
+Game of Life, Step 0:
+Elapsed time 0.120629 s
+Game of Life, Step 1:
+Elapsed time 0.128117 s
+Game of Life, Step 2:
+Elapsed time 0.121677 s
+Game of Life, Step 3:
+Elapsed time 0.121071 s
+Game of Life, Step 4:
+Elapsed time 0.122235 s
+Game of Life, Step 5:
+Elapsed time 0.123440 s
+Game of Life, Step 6:
+Elapsed time 0.122193 s
+Game of Life, Step 7:
+Elapsed time 0.121611 s
+Game of Life, Step 8:
+Elapsed time 0.121504 s
+Game of Life, Step 9:
+Elapsed time 0.122025 s
+Game of Life, Step 10:
+Elapsed time 0.121454 s
+Game of Life, Step 11:
+Elapsed time 0.121723 s
+Game of Life, Step 12:
+Elapsed time 0.121308 s
+Game of Life, Step 13:
+Elapsed time 0.122590 s
+Game of Life, Step 14:
+Elapsed time 0.121939 s
+Game of Life, Step 15:
+Elapsed time 0.122733 s
+Game of Life, Step 16:
+Elapsed time 0.121952 s
+Game of Life, Step 17:
+Elapsed time 0.121549 s
+Game of Life, Step 18:
+Elapsed time 0.122764 s
+Game of Life, Step 19:
+Elapsed time 0.121852 s
+Game of Life, Step 20:
+Elapsed time 0.120752 s
+Game of Life, Step 21:
+Elapsed time 0.121972 s
+Game of Life, Step 22:
+Elapsed time 0.122193 s
+Game of Life, Step 23:
+Elapsed time 0.121720 s
+Game of Life, Step 24:
+Elapsed time 0.121371 s
+Game of Life, Step 25:
+Elapsed time 0.120743 s
+Game of Life, Step 26:
+Elapsed time 0.121333 s
+Game of Life, Step 27:
+Elapsed time 0.121071 s
+Game of Life, Step 28:
+Elapsed time 0.120658 s
+Game of Life, Step 29:
+Elapsed time 0.120570 s
+Game of Life, Step 30:
+Elapsed time 0.121965 s
+Game of Life, Step 31:
+Elapsed time 0.121319 s
+Game of Life, Step 32:
+Elapsed time 0.121448 s
+Game of Life, Step 33:
+Elapsed time 0.121152 s
+Game of Life, Step 34:
+Elapsed time 0.121577 s
+Game of Life, Step 35:
+Elapsed time 0.120740 s
+Game of Life, Step 36:
+Elapsed time 0.121169 s
+Game of Life, Step 37:
+Elapsed time 0.119939 s
+Game of Life, Step 38:
+Elapsed time 0.121146 s
+Game of Life, Step 39:
+Elapsed time 0.119660 s
+Game of Life, Step 40:
+Elapsed time 0.120574 s
+Game of Life, Step 41:
+Elapsed time 0.120084 s
+Game of Life, Step 42:
+Elapsed time 0.119942 s
+Game of Life, Step 43:
+Elapsed time 0.119638 s
+Game of Life, Step 44:
+Elapsed time 0.121101 s
+Game of Life, Step 45:
+Elapsed time 0.122718 s
+Game of Life, Step 46:
+Elapsed time 0.122526 s
+Game of Life, Step 47:
+Elapsed time 0.120153 s
+Game of Life, Step 48:
+Elapsed time 0.121830 s
+Game of Life, Step 49:
+Elapsed time 0.119977 s
+Game of Life, Step 50:
+Elapsed time 0.119854 s
+Game of Life, Step 51:
+Elapsed time 0.120853 s
+Game of Life, Step 52:
+Elapsed time 0.120035 s
+Game of Life, Step 53:
+Elapsed time 0.119498 s
+Game of Life, Step 54:
+Elapsed time 0.120170 s
+Game of Life, Step 55:
+Elapsed time 0.121127 s
+Game of Life, Step 56:
+Elapsed time 0.120254 s
+Game of Life, Step 57:
+Elapsed time 0.119662 s
+Game of Life, Step 58:
+Elapsed time 0.119661 s
+Game of Life, Step 59:
+Elapsed time 0.120993 s
+Game of Life, Step 60:
+Elapsed time 0.119532 s
+Game of Life, Step 61:
+Elapsed time 0.118620 s
+Game of Life, Step 62:
+Elapsed time 0.119400 s
+Game of Life, Step 63:
+Elapsed time 0.119726 s
+Game of Life, Step 64:
+Elapsed time 0.120220 s
+Game of Life, Step 65:
+Elapsed time 0.119115 s
+Game of Life, Step 66:
+Elapsed time 0.119636 s
+Game of Life, Step 67:
+Elapsed time 0.119073 s
+Game of Life, Step 68:
+Elapsed time 0.119329 s
+Game of Life, Step 69:
+Elapsed time 0.118921 s
+Game of Life, Step 70:
+Elapsed time 0.119100 s
+Game of Life, Step 71:
+Elapsed time 0.118213 s
+Game of Life, Step 72:
+Elapsed time 0.117909 s
+Game of Life, Step 73:
+Elapsed time 0.118322 s
+Game of Life, Step 74:
+Elapsed time 0.119119 s
+Game of Life, Step 75:
+Elapsed time 0.118280 s
+Game of Life, Step 76:
+Elapsed time 0.119150 s
+Game of Life, Step 77:
+Elapsed time 0.119103 s
+Game of Life, Step 78:
+Elapsed time 0.118326 s
+Game of Life, Step 79:
+Elapsed time 0.117986 s
+Game of Life, Step 80:
+Elapsed time 0.119292 s
+Game of Life, Step 81:
+Elapsed time 0.118976 s
+Game of Life, Step 82:
+Elapsed time 0.120246 s
+Game of Life, Step 83:
+Elapsed time 0.118423 s
+Game of Life, Step 84:
+Elapsed time 0.118363 s
+Game of Life, Step 85:
+Elapsed time 0.118775 s
+Game of Life, Step 86:
+Elapsed time 0.118584 s
+Game of Life, Step 87:
+Elapsed time 0.118277 s
+Game of Life, Step 88:
+Elapsed time 0.119967 s
+Game of Life, Step 89:
+Elapsed time 0.117649 s
+Game of Life, Step 90:
+Elapsed time 0.117760 s
+Game of Life, Step 91:
+Elapsed time 0.118121 s
+Game of Life, Step 92:
+Elapsed time 0.118405 s
+Game of Life, Step 93:
+Elapsed time 0.117770 s
+Game of Life, Step 94:
+Elapsed time 0.117896 s
+Game of Life, Step 95:
+Elapsed time 0.117663 s
+Game of Life, Step 96:
+Elapsed time 0.117534 s
+Game of Life, Step 97:
+Elapsed time 0.117792 s
+Game of Life, Step 98:
+Elapsed time 0.119495 s
+Game of Life, Step 99:
+Elapsed time 0.117932 s
+Finnished GOL
+Elapsed time 12.025722 s
