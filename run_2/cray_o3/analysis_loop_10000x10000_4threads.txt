@@ -1,0 +1,13 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 99.24     52.44    52.44                             main
+  0.76     52.84     0.40        1   400.00   400.00  generate_IC
+  0.00     52.84     0.00      101     0.00     0.00  get_elapsed_time
+  0.00     52.84     0.00      101     0.00     0.00  init_time
+  0.00     52.84     0.00      100     0.00     0.00  visualise
+  0.00     52.84     0.00        1     0.00     0.00  getinput
+  0.00     52.84     0.00        1     0.00     0.00  report_core_binding
+  0.00     52.84     0.00        1     0.00     0.00  report_runtime_state

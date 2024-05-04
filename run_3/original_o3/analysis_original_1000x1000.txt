@@ -1,0 +1,24 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 12.91      0.08     0.08                             game_of_life_stats (01_gol_cpu_serial.c:45 @ 401278)
+ 12.91      0.16     0.08                             game_of_life_stats (01_gol_cpu_serial.c:44 @ 40127d)
+ 11.30      0.23     0.07                             game_of_life (01_gol_cpu_serial.c:19 @ 4010dc)
+  9.69      0.29     0.06                             game_of_life (01_gol_cpu_serial.c:24 @ 401148)
+  8.88      0.35     0.06                             game_of_life (01_gol_cpu_serial.c:30 @ 4010c4)
+  8.07      0.40     0.05                             game_of_life (01_gol_cpu_serial.c:21 @ 40110a)
+  8.07      0.45     0.05                             game_of_life (01_gol_cpu_serial.c:26 @ 401168)
+  6.46      0.49     0.04                             game_of_life (01_gol_cpu_serial.c:30 @ 4010b0)
+  6.46      0.53     0.04                             game_of_life (01_gol_cpu_serial.c:23 @ 401131)
+  3.23      0.55     0.02                             game_of_life (01_gol_cpu_serial.c:29 @ 4010cd)
+  3.23      0.57     0.02                             game_of_life (01_gol_cpu_serial.c:28 @ 401182)
+  2.42      0.58     0.02                             game_of_life (01_gol_cpu_serial.c:7 @ 4010be)
+  1.61      0.59     0.01                             game_of_life (01_gol_cpu_serial.c:7 @ 40109f)
+  1.61      0.60     0.01                             game_of_life (01_gol_cpu_serial.c:20 @ 4010ff)
+  1.61      0.61     0.01                             game_of_life (01_gol_cpu_serial.c:22 @ 401122)
+  1.61      0.62     0.01                             game_of_life (01_gol_cpu_serial.c:25 @ 401157)
+  0.00      0.62     0.00        2     0.00     0.00  report_memory_usage (common.c:24 @ 401410)
+  0.00      0.62     0.00        1     0.00     0.00  cpuset_to_cstr (common.c:124 @ 401580)
+  0.00      0.62     0.00        1     0.00     0.00  report_core_binding (common.c:159 @ 401700)

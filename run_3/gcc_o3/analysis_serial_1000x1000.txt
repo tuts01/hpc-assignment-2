@@ -1,0 +1,22 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 18.27      0.12     0.12                             game_of_life (01_gol_cpu_serial.c:34 @ 4010e0)
+ 13.50      0.20     0.09                             game_of_life_stats (01_gol_cpu_serial.c:54 @ 401297)
+ 13.50      0.29     0.09                             game_of_life_stats (01_gol_cpu_serial.c:53 @ 40129c)
+  9.53      0.35     0.06                             game_of_life (01_gol_cpu_serial.c:23 @ 401110)
+  8.74      0.40     0.06                             game_of_life (01_gol_cpu_serial.c:29 @ 401190)
+  7.15      0.45     0.05                             game_of_life (01_gol_cpu_serial.c:24 @ 401134)
+  7.15      0.49     0.05                             game_of_life (01_gol_cpu_serial.c:25 @ 401148)
+  6.35      0.53     0.04                             game_of_life (01_gol_cpu_serial.c:30 @ 4011a3)
+  3.18      0.55     0.02                             game_of_life (01_gol_cpu_serial.c:28 @ 4010cd)
+  3.18      0.57     0.02                             game_of_life (01_gol_cpu_serial.c:11 @ 4010f5)
+  3.18      0.59     0.02                             game_of_life (01_gol_cpu_serial.c:28 @ 401181)
+  3.18      0.61     0.02                             game_of_life (01_gol_cpu_serial.c:32 @ 4011b1)
+  2.38      0.63     0.02                             game_of_life (01_gol_cpu_serial.c:27 @ 40116f)
+  0.79      0.63     0.01                             game_of_life (01_gol_cpu_serial.c:33 @ 4010f9)
+  0.00      0.63     0.00        2     0.00     0.00  report_memory_usage (common.c:24 @ 401420)
+  0.00      0.63     0.00        1     0.00     0.00  cpuset_to_cstr (common.c:124 @ 401590)
+  0.00      0.63     0.00        1     0.00     0.00  report_core_binding (common.c:159 @ 401710)
