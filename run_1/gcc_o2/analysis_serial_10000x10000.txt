@@ -1,0 +1,29 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 18.18     10.75    10.75                             game_of_life (01_gol_cpu_serial.c:34 @ 4011a0)
+ 13.06     18.48     7.73                             game_of_life_stats (01_gol_cpu_serial.c:54 @ 401277)
+ 13.06     26.21     7.73                             game_of_life_stats (01_gol_cpu_serial.c:53 @ 40127c)
+  9.27     31.69     5.49                             game_of_life (01_gol_cpu_serial.c:28 @ 401163)
+  8.90     36.96     5.26                             game_of_life (01_gol_cpu_serial.c:23 @ 4010f6)
+  6.56     40.84     3.88                             game_of_life (01_gol_cpu_serial.c:30 @ 401185)
+  6.11     44.45     3.61                             game_of_life (01_gol_cpu_serial.c:27 @ 401151)
+  4.48     47.10     2.65                             game_of_life (01_gol_cpu_serial.c:25 @ 40112a)
+  3.09     48.93     1.83                             game_of_life (01_gol_cpu_serial.c:29 @ 401172)
+  3.07     50.74     1.82                             game_of_life (01_gol_cpu_serial.c:26 @ 401140)
+  2.78     52.39     1.65                             game_of_life (01_gol_cpu_serial.c:11 @ 4010e1)
+  2.52     53.88     1.49                             game_of_life (01_gol_cpu_serial.c:24 @ 401116)
+  2.31     55.25     1.37                             game_of_life (01_gol_cpu_serial.c:32 @ 4010d0)
+  2.12     56.50     1.26                             game_of_life (01_gol_cpu_serial.c:13 @ 4010f4)
+  1.92     57.64     1.14                             game_of_life (01_gol_cpu_serial.c:32 @ 401193)
+  0.92     58.18     0.55                             game_of_life (01_gol_cpu_serial.c:24 @ 4010c3)
+  0.91     58.72     0.54                             game_of_life (01_gol_cpu_serial.c:33 @ 4010dc)
+  0.63     59.09     0.37                             generate_rand_IC (common.c:293 @ 401b90)
+  0.10     59.15     0.06                             generate_rand_IC (common.c:293 @ 401bb9)
+  0.05     59.18     0.03                             game_of_life_stats (01_gol_cpu_serial.c:53 @ 401250)
+  0.05     59.21     0.03                             game_of_life_stats (01_gol_cpu_serial.c:54 @ 401270)
+  0.00     59.21     0.00        2     0.00     0.00  report_memory_usage (common.c:24 @ 401420)
+  0.00     59.21     0.00        1     0.00     0.00  cpuset_to_cstr (common.c:124 @ 401590)
+  0.00     59.21     0.00        1     0.00     0.00  report_core_binding (common.c:159 @ 401710)
