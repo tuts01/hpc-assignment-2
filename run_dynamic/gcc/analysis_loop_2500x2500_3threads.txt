@@ -1,0 +1,23 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 20.15      0.75     0.75                             game_of_life._omp_fn.0 (02_gol_cpu_openmp_loop.c:48 @ 401290)
+ 11.77      1.18     0.44                             game_of_life._omp_fn.0 (02_gol_cpu_openmp_loop.c:43 @ 401354)
+  8.93      1.51     0.33                             game_of_life._omp_fn.0 (02_gol_cpu_openmp_loop.c:41 @ 401323)
+  8.66      1.83     0.32                             game_of_life._omp_fn.0 (02_gol_cpu_openmp_loop.c:38 @ 4012e5)
+  8.25      2.14     0.31                             game_of_life_stats (02_gol_cpu_openmp_loop.c:69 @ 4014b7)
+  8.25      2.44     0.31                             game_of_life_stats (02_gol_cpu_openmp_loop.c:68 @ 4014bc)
+  7.03      2.70     0.26                             game_of_life._omp_fn.0 (02_gol_cpu_openmp_loop.c:37 @ 4012c2)
+  6.63      2.95     0.25                             game_of_life._omp_fn.0 (02_gol_cpu_openmp_loop.c:42 @ 40133e)
+  5.82      3.16     0.22                             game_of_life._omp_fn.0 (02_gol_cpu_openmp_loop.c:46 @ 401380)
+  5.27      3.36     0.20                             game_of_life._omp_fn.0 (02_gol_cpu_openmp_loop.c:44 @ 401371)
+  3.25      3.48     0.12                             game_of_life._omp_fn.0 (02_gol_cpu_openmp_loop.c:39 @ 4012fa)
+  2.43      3.57     0.09                             game_of_life._omp_fn.0 (02_gol_cpu_openmp_loop.c:40 @ 401311)
+  2.03      3.64     0.08                             game_of_life._omp_fn.0 (02_gol_cpu_openmp_loop.c:46 @ 40127e)
+  0.81      3.67     0.03                             game_of_life._omp_fn.0 (02_gol_cpu_openmp_loop.c:25 @ 4012a7)
+  0.81      3.70     0.03                             generate_rand_IC (common.c:293 @ 401dd0)
+  0.00      3.70     0.00        2     0.00     0.00  report_memory_usage (common.c:24 @ 401660)
+  0.00      3.70     0.00        1     0.00     0.00  cpuset_to_cstr (common.c:124 @ 4017d0)
+  0.00      3.70     0.00        1     0.00     0.00  report_core_binding (common.c:159 @ 401950)

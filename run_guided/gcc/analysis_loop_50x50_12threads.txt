@@ -1,0 +1,10 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00        2     0.00     0.00  report_memory_usage (common.c:24 @ 401700)
+  0.00      0.00     0.00        1     0.00     0.00  cpuset_to_cstr (common.c:124 @ 401870)
+  0.00      0.00     0.00        1     0.00     0.00  report_core_binding (common.c:159 @ 4019f0)

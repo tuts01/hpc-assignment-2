@@ -1,0 +1,16 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 85.30      2.38     2.38                             main
+ 13.62      2.76     0.38      100     3.80     3.80  game_of_life_stats
+  1.08      2.79     0.03        1    30.00    30.00  generate_IC
+  0.00      2.79     0.00      101     0.00     0.00  get_elapsed_time
+  0.00      2.79     0.00      101     0.00     0.00  init_time
+  0.00      2.79     0.00      100     0.00     0.00  visualise
+  0.00      2.79     0.00        2     0.00     0.00  report_memory_usage
+  0.00      2.79     0.00        1     0.00     0.00  cpuset_to_cstr
+  0.00      2.79     0.00        1     0.00     0.00  getinput
+  0.00      2.79     0.00        1     0.00     0.00  report_core_binding
+  0.00      2.79     0.00        1     0.00     0.00  report_runtime_state
